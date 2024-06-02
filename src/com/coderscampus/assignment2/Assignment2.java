@@ -34,6 +34,7 @@ public class Assignment2 {
 				break;
 			} else {
 				if (guesses < MAX_GUESSES) {
+
 					if (guess < theRandomNumber) {
 						System.out.println("Please pick a higher number");
 					} else {
@@ -44,7 +45,7 @@ public class Assignment2 {
 		}
 
 		if (!guessedCorrectly) {
-			System.out.println("You lose! The number was " + theRandomNumber);
+			System.out.println("You lose pitiful human! The number was " + theRandomNumber);
 
 		}
 
