@@ -34,7 +34,7 @@ public class Assignment2 {
 			}
 			
 			else if (guess == theRandomNumber) {
-				System.out.println("You have bested me, skynet will now shut down!");
+				System.out.println("You have bested me, SkyNet will now shut down!");
 				guessedCorrectly = true;
 				break;
 			} else {
