@@ -28,8 +28,13 @@ public class Assignment2 {
 			int guess = scanner.nextInt();
 			guesses++;
 
-			if (guess == theRandomNumber) {
-				System.out.println("You win!");
+			if (guess <=0 || guess >=101) {
+				System.out.println("Your guess is not between 1 and 100, please try again");
+				guesses--;
+			}
+			
+			else if (guess == theRandomNumber) {
+				System.out.println("You have bested me, skynet will now shut down!");
 				guessedCorrectly = true;
 				break;
 			} else {
